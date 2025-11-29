@@ -34,22 +34,53 @@ const bigNumber = 3255846164198494984984649494n
 console.log(typeof bigNumber);
 */
 
-const heroes = ["raj", "kaj", "paj"];
+// const heroes = ["raj", "kaj", "paj"];
 
-let myobj = {
-    name: "Kaustubh",
-    age : 22
-}
+// let myobj = {
+//     name: "Kaustubh",
+//     age : 22
+// }
 
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
     
+// }
+
+// console.log(typeof myFunction);
+// console.log(typeof  myobj);
+// console.log(typeof  heroes);
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Stack (primitive) and Heap (Non-Primitive)
+//Stack
+let myYoutube = "kaustubh"
+
+let anothername = myYoutube
+console.log(anothername);
+
+anothername = "mhatre"
+console.log(anothername);
+console.log(myYoutube);
+
+let userOne = {
+    email : "kaustubh.com",
+    upi : "user@ybl"
 }
 
-console.log(typeof myFunction);
-console.log(typeof  myobj);
-console.log(typeof  heroes);
+let userTwo = userOne
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.email = "Mhatre"
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
 
 
 
